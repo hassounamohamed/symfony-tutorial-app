@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <div class="container text-center mt-5">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/640px-Flag_of_Tunisia.svg.png" alt="Tunisia Flag" class="img-fluid mb-3" style="max-width: 200px;">
+        
+        <h1 class="text-primary">Hello from Tunisia 🇹🇳</h1>
+        <p class="lead">It's currently <strong>{{ 'now' | date('h:i A') }}</strong></p>
+        
+        <a href="/about" class="btn btn-danger">Clique me !!!</a>
+    </div>
+
+{% endblock %}
